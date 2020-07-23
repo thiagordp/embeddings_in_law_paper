@@ -25,13 +25,26 @@ For each corpora, we created smaller bases as described in the paper and then we
 However, due to submition deadline, we could not use other algorithms to the paper.
 Recently, we finished the training of all algorithms.
 
-We make all trained embeddings in this [link](https://ufscbr-my.sharepoint.com/:f:/g/personal/thiago_rdp_ufsc_br/Et0dp2JGiAhBldl2w54vTtIBNTaU6EPcfFIHXps4B-uh8A?e=XGStTc)
+We make all trained embeddings in this [link](https://ufscbr-my.sharepoint.com/:f:/g/personal/thiago_rdp_ufsc_br/Et0dp2JGiAhBldl2w54vTtIBNTaU6EPcfFIHXps4B-uh8A?e=XGStTc).
 
-TODO: Describe file names
+The embeddings are organized in the link in three main folders, one for each algorithm.
+Then, inside of these folders there are three folders regarding the contexts as described before.
+Finally, each file is an embeddings, where the filename has a pattern to tell you how it was trained, for instance:
+
+- **glove_1000_100.txt**: A GloVe embedding trained with a corpus of 1000 tokens with output vector of size 100.
+- **fast_text_cbow_200000_100.txt**: A Fast Text CBOW embedding trained with a corpus of 200.000 tokens with output vector of size 100.
+
 
 ### Text Classification
 
+In this subproject, we implemented Text Classification using Convolutional Neural Networks using an [available architecture](https://arxiv.org/abs/1408.5882).
+We used a set of judgements related to failures in air transport services from JEC/UFSC.
+
+For each embedding we created, we applied the CNN (train and test) 200 times. 
+Then, we took the accuracy and Macro F1 Score for each repetition and averaged them to get the final metrics for each embedding.
+
+
 ## Notes
 
-- We did not make our datasets for embeddings training and text classication available due to the personal data .
+- We did not make our datasets for embeddings training and text classication available due to the personal data in the documents.
 

@@ -12,13 +12,9 @@
 - Create several embeddings with:
     - Length:       50, 100, 500, 1000 
     - Algorithms:   Word2Vec, GLOVe, ELmo, Doc2Vec etc.
-    - Datasets:     TJ's, TJ's and add docs.
-    - 
 
 - Apply to machine learning algorithms like:
-    - LSTM
     - CNN
-    - RNN
     
 ## References
 - WANG, S., ZHOU, W., JIANG, C. "A survey of word embeddings based on deep learning", Computing, v. 27, n. 2, p. 171–198, 12 nov. 2019. DOI: 10.1007/s00607-019-00768-7. 
@@ -51,11 +47,3 @@ Disponível em: http://arxiv.org/abs/1606.07736.
 - HARTMANN, N., FONSECA, E., SHULBY, C., et al. "Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks", n. Section 3, 20 ago. 2017. 
 Disponível em: http://arxiv.org/abs/1708.06025.
 
- 
-
- # Data size
-
- ## STF
-
- - Acórdãos = 168.578 + 1.074 (Rep Geral) - 104.435 -438
- - Monocráticas = 118.910 - 
